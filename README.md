@@ -18,6 +18,8 @@ Airbnb is a service that lets property owners rent out their spaces to travelers
 
 - API Documentation
 
+- Combined Onion and Modular Architecture Pattern
+
 Technology: Express, MongoDB, NodeJS
 
 **_*Note: This is not excect clone of airbnb.*_**
