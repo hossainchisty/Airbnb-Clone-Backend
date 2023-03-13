@@ -4,6 +4,8 @@ Work in progress development and integration...⌛
 
 Airbnb is a service that lets property owners rent out their spaces to travelers looking for a place to stay. the main goal of this operating an online marketplace for short-term homestays and experiences.
 
+- Combined Onion and Modular Architecture Pattern
+
 - Implemented JWT for authentication and authorization
 
 - Protecting routes/endpoints with JWT (JSON Web Tokens)
@@ -17,8 +19,6 @@ Airbnb is a service that lets property owners rent out their spaces to travelers
 - Extensive API testing with Postman
 
 - API Documentation
-
-- Combined Onion and Modular Architecture Pattern
 
 Technology: Express, MongoDB, NodeJS
 
