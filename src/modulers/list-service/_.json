@@ -1,0 +1,30 @@
+{
+  "title": "Luxury Villa in Bali",
+  "description": "Experience the ultimate luxury at our private villa in Bali. With breathtaking ocean views, an infinity pool, and a personal butler, you won't want to leave.",
+  "location": "Jalan Raya Uluwatu, Badung, Bali, Indonesia 80361",
+  "images": [
+    "https://example.com/images/villa-1.jpg",
+    "https://example.com/images/villa-2.jpg",
+    "https://example.com/images/villa-3.jpg",
+    "https://example.com/images/villa-4.jpg"
+  ],
+  "price": 500,
+  "cleaning_fee": 100,
+  "service_fee": 50,
+  "taxes": 75,
+  "guests": 6,
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "amenities": [
+    "Air conditioning",
+    "Free WiFi",
+    "Private pool",
+    "Personal butler",
+    "Ocean view",
+    "Gourmet kitchen",
+    "Gym",
+    "Hot tub"
+  ],
+  "not_included": ["Meals", "Airport transfers"],
+  "viewed": 2342
+}

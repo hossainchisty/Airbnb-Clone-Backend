@@ -67,25 +67,25 @@ const listingSchema = new mongoose.Schema({
   host: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Host",
-    required: true,
   },
-  bookings: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Booking",
-    },
-  ],
-  viewed: [
-    {
-      type: Number,
-      default: 0,
-    },
-  ],
+  bookings: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Booking",
+  },
+  viewed: {
+    type: Number,
+    default: 0,
+  },
   datePosted: {
     type: Date,
     default: Date.now,
-  },
-});
+  }
+},
+{
+  timestamps: true,
+  versionKey: false,
+}
+);
 
 const Listing = mongoose.model("Listing", listingSchema);
 
