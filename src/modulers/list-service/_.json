@@ -26,5 +26,7 @@
     "Hot tub"
   ],
   "not_included": ["Meals", "Airport transfers"],
-  "viewed": 2342
+  "viewed": 2342,
+  "host": ["64118c5dd9e83e4f305f3e92"],
+  "bookings": []
 }

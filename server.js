@@ -13,6 +13,7 @@ connectDB();
 
 // Routers
 const listingsRouter = require("./src/modulers/list-service/application/routes/listing.routers");
+const hostRouter = require("./src/modulers/host-service/application/routes/host.routers");
 
 // Express app initialization
 const port = process.env.PORT || 3000;
@@ -26,6 +27,7 @@ app.use(errorHandler);
 
 // Application routes
 app.use("/api/v1/listings/", listingsRouter);
+app.use("/api/v1/host/", hostRouter);
 
 app.listen(port, () =>
   console.log(`Server started on port http://127.0.0.1:${port}`)

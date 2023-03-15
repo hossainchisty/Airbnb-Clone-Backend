@@ -1,5 +1,6 @@
 // Require necessary dependencies
 const mongoose = require("mongoose");
+const validator = require("validator");
 
 // Define the host schema
 const hostSchema = new mongoose.Schema({

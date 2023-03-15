@@ -16,7 +16,7 @@ const ListingRepository = {
   },
 
   async findAll() {
-    const listings = await Listing.find();
+    const listings = await Listing.find().populate("host");
     return listings;
   },
 
