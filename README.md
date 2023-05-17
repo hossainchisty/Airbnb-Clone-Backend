@@ -1,8 +1,8 @@
-### Airbnb Clone Backend
+### ExploreAbode Backend
 
 Work in progress development and integration...⌛
 
-Airbnb is a service that lets property owners rent out their spaces to travelers looking for a place to stay. the main goal of this operating an online marketplace for short-term homestays and experiences.
+ExploreAbode is a service that lets property owners rent out their spaces to travelers looking for a place to stay. the main goal of this operating an online marketplace for short-term homestays and experiences.
 
 - Combined Onion and Modular Architecture Pattern
 
@@ -21,5 +21,3 @@ Airbnb is a service that lets property owners rent out their spaces to travelers
 - API Documentation
 
 Technology: Express, MongoDB, NodeJS
-
-**_*Note: This is not excect clone of airbnb.*_**
